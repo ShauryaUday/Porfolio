@@ -1,9 +1,19 @@
-        h1{color: darkcyan;}
-        *{border:solid;}
-        .header{background: linear-gradient(blue,pink);
+
+        .header{background-image:url(hu.jpeg);
         display:flex;
-    justify-content: space-evenly;}
-    .grid{background-color: aqua;
-    display:flex;
-justify-content: space-evenly;}
-    
+    justify-content: space-evenly;
+
+}
+body{background-image: url(dads.jpg);
+height: 100%; width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;}
+a:link{
+    color: goldenrod;
+} 
+a:visited{
+    color: green;
+}
+ .item:hover p{opacity: 1;}
+ .item:hover img{opacity: 0.3;}
